@@ -1,9 +1,11 @@
 class AlbumsHandler {
-  constructor(service) {
+  constructor(service, validator) {
     this.service = service;
+    this.validator = validator;
   }
 
   async postAlbumHandler(request, h) {
+    this.validator.validateAlbumPayload(request.payload);
     const { name, year } = request.payload;
 
     const albumId = await this.service.addAlbum({
@@ -13,7 +15,7 @@ class AlbumsHandler {
 
     const response = h.response({
       status: 'success',
-      message: 'Menambahkan album',
+      message: 'Berhasil menambahkan album',
       data: {
         albumId,
       },
@@ -35,6 +37,7 @@ class AlbumsHandler {
   }
 
   async putAlbumByIdHandler(request) {
+    this.validator.validateAlbumPayload(request.payload);
     const { id } = request.params;
 
     await this.service.editAlbumById(id, request.payload);
