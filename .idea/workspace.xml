@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bd6bb0b0-fca4-4108-8245-aaecf8868bcb" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2ZcpDsEnkOvqo2eQsEXfvSMnRJq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Node.js.handler.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nanda/WebstormProjects/notes-app-back-end/src/api/notes/handler.js&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Program Files\\nodejs\\node_modules\\prettier&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\nanda\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nanda\WebstormProjects\OpenMusic API v1\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="handler.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../notes-app-back-end/src/api/notes/handler.js" working-dir="$PROJECT_DIR$/../notes-app-back-end/src/api/notes">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.handler.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd6bb0b0-fca4-4108-8245-aaecf8868bcb" name="Changes" comment="" />
+      <created>1702731105380</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702731105380</updated>
+      <workItem from="1702731106535" duration="7023000" />
+      <workItem from="1702739703812" duration="269000" />
+      <workItem from="1702900829847" duration="2101000" />
+      <workItem from="1703202654353" duration="11380000" />
+      <workItem from="1703233789834" duration="4456000" />
+      <workItem from="1703255770015" duration="4552000" />
+      <workItem from="1703305906047" duration="2378000" />
+      <workItem from="1703429660511" duration="3266000" />
+      <workItem from="1703588157767" duration="163000" />
+      <workItem from="1703596404205" duration="15235000" />
+      <workItem from="1703612331675" duration="2119000" />
+      <workItem from="1703767125268" duration="776000" />
+      <workItem from="1704107464133" duration="621000" />
+    </task>
+    <task id="LOCAL-00001" summary="Albums API without Validation yet - Checking for Error in Postman &quot;it should response with not found | AssertionError: expected 500 to equal 404&quot;">
+      <option name="closed" value="true" />
+      <created>1703258565645</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703258565645</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Albums API without Validation yet - Checking for Error in Postman &quot;it should response with not found | AssertionError: expected 500 to equal 404&quot;">
+      <option name="closed" value="true" />
+      <created>1703258941307</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703258941307</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Songs API - Checking response body have correct property and value | AssertionError: expected [ { …(3) } ] to have a length at least 2 but got 1 and error in edit song with invalid and valid id.">
+      <option name="closed" value="true" />
+      <created>1703611025624</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703611025624</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fix SongService for editSongById by delete the albumId in paramater function and the query aswell">
+      <option name="closed" value="true" />
+      <created>1703612818892</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703612818892</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Tambahan Hasil Review">
+      <option name="closed" value="true" />
+      <created>1703767891954</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703767891954</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Albums API without Validation yet - Checking for Error in Postman &quot;it should response with not found | AssertionError: expected 500 to equal 404&quot;" />
+    <MESSAGE value="Songs API - Checking response body have correct property and value | AssertionError: expected [ { …(3) } ] to have a length at least 2 but got 1 and error in edit song with invalid and valid id." />
+    <MESSAGE value="Fix SongService for editSongById by delete the albumId in paramater function and the query aswell" />
+    <MESSAGE value="Tambahan Hasil Review" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tambahan Hasil Review" />
+  </component>
+</project>
