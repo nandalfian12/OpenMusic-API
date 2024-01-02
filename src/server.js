@@ -4,14 +4,17 @@ const Jwt = require('@hapi/jwt');
 
 const ClientError = require('./exceptions/ClientError');
 
+// songs
 const songs = require('./api/songs');
 const SongsService = require('./services/postgres/SongService');
 const SongsValidator = require('./validator/songs');
 
+// albums
 const albums = require('./api/albums');
 const AlbumsService = require('./services/postgres/AlbumsService');
 const AlbumsValidator = require('./validator/albums');
 
+// users
 const users = require('./api/users');
 const UsersServive = require('./services/postgres/UsersService');
 const UsersValidator = require('./validator/users');
@@ -22,11 +25,17 @@ const AuthenticationsService = require('./services/postgres/AuthenticationsServi
 const TokenManager = require('./tokenize/TokenManager');
 const AuthenticationsValidator = require('./validator/authentications');
 
+// playlists
+const playlists = require('./api/playlists');
+const PlaylistsService = require('./services/postgres/PlaylistsService');
+const PlaylistsValidator = require('./validator/playlists');
+
 const init = async () => {
   const albumsService = new AlbumsService();
   const songsService = new SongsService();
   const usersService = new UsersServive();
   const authenticationsService = new AuthenticationsService();
+  const playlistsService = new PlaylistsService();
 
   const server = Hapi.server({
     // Server Configuration
@@ -92,6 +101,13 @@ const init = async () => {
         usersService,
         tokenManager: TokenManager,
         validator: AuthenticationsValidator,
+      },
+    },
+    {
+      plugin: playlists,
+      options: {
+        service: playlistsService,
+        validator: PlaylistsValidator,
       },
     },
   ]);
