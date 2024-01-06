@@ -106,7 +106,8 @@ const init = async () => {
     {
       plugin: playlists,
       options: {
-        service: playlistsService,
+        playlistsService,
+        songsService,
         validator: PlaylistsValidator,
       },
     },
@@ -138,7 +139,6 @@ const init = async () => {
         message: 'terjadi kegagalan pada server kami',
       });
       newResponse.code(500);
-      console.log(response);
       return newResponse;
     }
     // jika bukan error, lanjutkan dengan response sebelumnya (tanpa terintervensi)

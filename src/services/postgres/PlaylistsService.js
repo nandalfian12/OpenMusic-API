@@ -57,10 +57,8 @@ class PlaylistsService {
       text: 'SELECT * FROM playlists WHERE id = $1',
       values: [id],
     };
-    console.log(id);
 
     const result = await this.pool.query(query);
-    console.log(result.rows);
 
     if (!result.rows.length) {
       throw new NotFoundError('Resource yang Anda minta tidak ditemukan');
