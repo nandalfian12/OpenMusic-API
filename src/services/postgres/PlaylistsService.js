@@ -57,8 +57,10 @@ class PlaylistsService {
       text: 'SELECT * FROM playlists WHERE id = $1',
       values: [id],
     };
+    console.log(id);
 
     const result = await this.pool.query(query);
+    console.log(result.rows);
 
     if (!result.rows.length) {
       throw new NotFoundError('Resource yang Anda minta tidak ditemukan');
@@ -71,17 +73,11 @@ class PlaylistsService {
     }
   }
 
-  async verifyPlaylistAccess(id, userId) {
+  async verifyPlaylistAccess(playlistId, userId) {
     try {
-      await this.verifyPlaylistOwner(id, userId);
+      await this.verifyPlaylistOwner(playlistId, userId);
     } catch (error) {
       if (error instanceof NotFoundError) {
-        throw error;
-      }
-
-      try {
-        await this.collaborationsService.verifyCollaborator(id, userId);
-      } catch {
         throw error;
       }
     }
@@ -94,12 +90,12 @@ class PlaylistsService {
       text: 'INSERT INTO playlistsongs VALUES($1, $2, $3) RETURNING id',
       values: [id, playlistId, songId],
     };
-
     const result = await this.pool.query(query);
 
     if (!result.rows[0].id) {
       throw new InvariantError('Gagal menambahkan lagu ke playlist');
     }
+    return result.rows[0].id;
   }
 
   async getSongsFromPlaylist(playlistId) {

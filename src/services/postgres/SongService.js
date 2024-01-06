@@ -1,5 +1,6 @@
 const { Pool } = require('pg');
 const { nanoid } = require('nanoid');
+const { mapSongDBToModel } = require('../../utils');
 const NotFoundError = require('../../exceptions/NotFoundError');
 const InvariantError = require('../../exceptions/InvariantError');
 
@@ -45,7 +46,7 @@ class SongsService {
       throw new NotFoundError('Lagu tidak ditemukan');
     }
 
-    return result.rows[0];
+    return result.rows.map(mapSongDBToModel)[0];
   }
 
   async editSongById(id, {
